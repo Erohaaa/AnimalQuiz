@@ -4,10 +4,10 @@
 //
 //  Created by oleg on 11.05.2022.
 //
-
+// Передать массив. И сделать логику результата. Кнопка бэк.
 import UIKit
 
-@main
+ @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
