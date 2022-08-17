@@ -15,33 +15,33 @@ extension Question {
     static func getQuestions() -> [Question] {
         return [
             Question(
-                text: "Какую пищу вы предпочитаете?",
+                text: "Яку їжу ви полюбляєте?",
                 type: .single,
                 answers: [
-                    Answer.init(text: "Steak", type: .dog),
-                    Answer.init(text: "Fish", type: .cat),
-                    Answer.init(text: "Carrot", type: .rabbit),
-                    Answer.init(text: "Kukuruza", type: .turtle)
+                    Answer.init(text: "Стейк", type: .dog),
+                    Answer.init(text: "Риба", type: .cat),
+                    Answer.init(text: "Морква", type: .rabbit),
+                    Answer.init(text: "Кукурудза", type: .turtle)
                 ]
             ),
             Question(
-                text: "Что вам нравится больше?",
+                text: "Що вам подобається більше?",
                 type: .multiple,
                 answers: [
-                    Answer.init(text: "Плавать", type: .turtle),
-                    Answer.init(text: "Спать", type: .cat),
-                    Answer.init(text: "Обниматься", type: .rabbit),
-                    Answer.init(text: "Есть", type: .dog)
+                    Answer.init(text: "Плавати", type: .turtle),
+                    Answer.init(text: "Спати", type: .cat),
+                    Answer.init(text: "Обійматися", type: .rabbit),
+                    Answer.init(text: "Їсти", type: .dog)
                 ]
             ),
             Question(
-                text: "Любите ли вы поездки на машине?",
+                text: "Чи полюбляєте ви їздити на авто?",
                 type: .ranged,
                 answers: [
-                    Answer.init(text: "Ненавижу", type: .cat),
-                    Answer.init(text: "Нервничаю", type: .rabbit),
+                    Answer.init(text: "Ненавиджу", type: .cat),
+                    Answer.init(text: "Нервую", type: .rabbit),
                     Answer.init(text: "Нейтрально", type: .turtle),
-                    Answer.init(text: "Обожаю", type: .dog)
+                    Answer.init(text: "Обожнюю", type: .dog)
                 ]
             )
         ]

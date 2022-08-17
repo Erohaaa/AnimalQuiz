@@ -51,14 +51,14 @@ extension ResultsViewController {
     }
         
     
-    // Метод Ирины.
+    // Метод 2.
 //    let resultAnimal = Dictionary(grouping: surveyResults, by: { $0.type }).sorted(by: {$0.value.count > $1.value.count}).first?.key
     
     //    updateUI(with: resultAnimal)
 //}
     
      func updateUI(with animal: AnimalType) {
-        whatAnimalAreYou.text = "Вы - \(animal.rawValue)!"
+        whatAnimalAreYou.text = "Ви - \(animal.rawValue)!"
         textAboutYou.text = animal.definition
     }
 }
